@@ -1,0 +1,58 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: clamp(1.25rem, -1.188rem + 5.42vw, 3.438rem);
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    width: 50%;
+}
+.left p {
+    font-size: clamp(0.75rem, -0.086rem + 1.86vw, 1.5rem);
+    margin-bottom: 5%;
+}
+.right {
+    width: 45%;
+}
+.button {
+    width: 10vw;
+    min-width: 100px;
+    align-items: center;
+    background-color: #333333;
+    text-align: center;
+    padding: 8px 10px;
+    margin-right: 6%;
+    margin-left: auto;
+}
+.button a {
+    color: #ffffff;
+    font-size: clamp(0.75rem, 0.402rem + 0.77vw, 1.063rem);
+}
+.button a::after {
+    content: "";
+    background-image: url(/images/eye.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+@media screen and (max-width:720px) {
+    .wrapper {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+}
