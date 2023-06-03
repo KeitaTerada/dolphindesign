@@ -5,20 +5,52 @@
 
 .wrapper {
     display: flex;
+    align-items: end;
 }
 
 .wrapper h1 {
     color: #000;
+    margin-left: 3%;
+    font-size: 40px;
+}
+
+.border {
+    border-top: 1px #000 solid;
+    margin-bottom: 15%;
 }
 
 .nav {
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .nav li {
-    margin-right: 30px;
+    margin-right: 5%;
+    font-size:24px
 }
 
 .center{
     text-align: center;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:720px) {
+
+    .wrapper h1 {
+        font-size: 22px;
+    }
+
+    .wrapper img{
+        width: 75px;
+        height: auto;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    
 }
