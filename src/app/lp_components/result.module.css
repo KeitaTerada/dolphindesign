@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: clamp(1.25rem, -1.188rem + 5.42vw, 3.438rem);
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+.wrapper .slide {
+    margin: 0 2%;
+}
+.wrapper .slide img {
+    vertical-align: top;
+}
+.content {
+    padding: 4% 6%;
+    background-color: #ffffff;
+}

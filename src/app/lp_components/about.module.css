@@ -1,0 +1,15 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1 {
+    font-size: clamp(1.25rem, -1.188rem + 5.42vw, 3.438rem);
+    margin-bottom: 1%;
+}
+.container h3 {
+    font-size: clamp(0.875rem, -0.449rem + 2.94vw, 2.063rem);
+    margin-bottom: 2%;
+}
+.container p {
+    font-size: clamp(0.75rem, -0.086rem + 1.86vw, 1.5rem);
+}
