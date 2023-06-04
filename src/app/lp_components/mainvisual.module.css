@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+.container .maincopy {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15% 0;
+}
+.container .maincopy h2 {
+    font-size: clamp(1rem, -1.02rem + 4.49vw, 2.813rem);
+    font-weight: 400;
+}
+.container .maincopy::before {
+    position: absolute;
+    content: "";
+    background-color: #fadc3b;
+    border-radius: 50%;
+    width: 58vw;
+    height: 58vw;
+    top: -60%;
+    left: -30%;
+    z-index: -1;
+}
