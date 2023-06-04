@@ -11,7 +11,11 @@
 .wrapper h1 {
     color: #000;
     margin-left: 3%;
-    font-size: 40px;
+    font-size: clamp(1.25rem, -1.188rem + 5.42vw, 3.438rem);
+}
+
+.wrapperimg {
+    width: 10%;
 }
 
 .border {
@@ -27,26 +31,17 @@
 
 .nav li {
     margin-right: 5%;
-    font-size:24px
+    font-size: clamp(0.75rem, -0.086rem + 1.86vw, 1.5rem);
 }
 
 .center{
     text-align: center;
-    font-size: 18px;
+    font-size: clamp(0.75rem, -0.086rem + 1.86vw, 1.5rem);
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 @media screen and (max-width:720px) {
-
-    .wrapper h1 {
-        font-size: 22px;
-    }
-
-    .wrapper img{
-        width: 75px;
-        height: auto;
-    }
 
     .nav {
         display: block;

@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin-bottom: 3%;
+    font-size: clamp(1.25rem, -1.188rem + 5.42vw, 3.438rem);
+}
+
+.wrapper p{
+    font-size: clamp(0.75rem, -0.086rem + 1.86vw, 1.5rem);
+}
+
+.wrapper div{
+    border-bottom: 1px #000 solid;
+    margin:2% 0;
+}

@@ -9,9 +9,13 @@ export default function Home() {
   return (  
     <main>
       <Result />
+      <div className={styles.wrap}></div>
       <About />
+      <div className={styles.wrap}></div>
       <Service />
+      <div className={styles.wrap}></div>
       <Info />
+      <div className={styles.wrap}></div>
     </main>
   )
 }
